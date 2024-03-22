@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.header {
+    background: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8000) 0.000%, rgba(0, 0, 0, 0.562) 8.333%, rgba(0, 0, 0, 0.7556) 16.67%, rgba(0, 0, 0, 0.575) 25.00%, rgba(0, 0, 0, 0.5) 33.33%, rgba(0, 0, 0, 0.747) 41.67%, rgba(0, 0, 0, 0.719) 50.00%, rgba(0, 0, 0, 0.658) 58.33%, rgba(0, 0, 0, 0.452) 66.67%, rgba(0, 0, 0, 0.514) 75.00%, rgba(0, 0, 0, 0.555) 83.33%, rgba(0, 0, 0, 0.589) 91.67%, rgba(0, 0, 0, 0.651) 100.0%);
+}
+
+/* accordion */
+
+/* .accordion-item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.accordion-title {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+} */
+
+.accordion-title:hover .accordion-content{
+    display: block !important;
+} 
